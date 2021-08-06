@@ -21,7 +21,13 @@ const Sidebar = ({ pathname }) => {
   return (
     <div>
 
-      <ListItem className={pathname === '/' ? styles.listActive : styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+        margin: '20px 0',
+      }} className={pathname === '/' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/'>
           <a>
             <ListItemIcon>
