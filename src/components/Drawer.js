@@ -31,7 +31,7 @@ const Drawer = styled(MuiDrawer)(({ theme }) => ({
             >
                 Gull
             </Typography>
-            <List className={styles.sidebarList}><Sidebar pathname={pathname} /></List>
+            <List sx={{p: '20px 10px',}}><Sidebar pathname={pathname} /></List>
         </Drawer>
     );
 };
