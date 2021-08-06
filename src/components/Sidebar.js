@@ -26,7 +26,6 @@ const Sidebar = ({ pathname }) => {
         display: 'block',
         margin: '20px 0',
         borderRadius: '5px',
-        margin: '20px 0',
       }} className={pathname === '/' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/'>
           <a>
@@ -40,7 +39,12 @@ const Sidebar = ({ pathname }) => {
         }
       </ListItem>
 
-      <ListItem className={pathname === '/table' ? styles.listActive : styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={pathname === '/table' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/table'>
           <a>
             <ListItemIcon>
@@ -53,7 +57,12 @@ const Sidebar = ({ pathname }) => {
         }
       </ListItem>
 
-      <ListItem className={pathname === '/security' ? styles.listActive : styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={pathname === '/security' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/security'>
           <a>
             <ListItemIcon>
@@ -66,7 +75,12 @@ const Sidebar = ({ pathname }) => {
         }
       </ListItem>
 
-      <ListItem className={pathname === '/list' ? styles.listActive : styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={pathname === '/list' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/list'>
           <a>
             <ListItemIcon>
@@ -79,7 +93,12 @@ const Sidebar = ({ pathname }) => {
         }
       </ListItem>
 
-      <ListItem className={pathname === '/document' ? styles.listActive : styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={pathname === '/document' ? styles.listActive : styles.dashboardIcon}>
         <Link href='/document'>
           <a>
             <ListItemIcon>
@@ -92,31 +111,56 @@ const Sidebar = ({ pathname }) => {
         }
       </ListItem>
 
-      <ListItem className={styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={styles.dashboardIcon}>
         <ListItemIcon>
           <Image src={Demo} alt="" />
         </ListItemIcon>
       </ListItem>
 
-      <ListItem className={styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={styles.dashboardIcon}>
         <ListItemIcon>
           <Image src={User} alt="" />
         </ListItemIcon>
       </ListItem>
 
-      <ListItem className={styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={styles.dashboardIcon}>
         <ListItemIcon>
           <Image src={Weather} alt="" />
         </ListItemIcon>
       </ListItem>
 
-      <ListItem className={styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={styles.dashboardIcon}>
         <ListItemIcon>
           <Image src={Demo1} alt="" />
         </ListItemIcon>
       </ListItem>
 
-      <ListItem className={styles.dashboardIcon}>
+      <ListItem sx={{
+        p: '15px 35px 10px 35px',
+        display: 'block',
+        margin: '20px 0',
+        borderRadius: '5px',
+      }} className={styles.dashboardIcon}>
         <ListItemIcon>
           <Image src={Instagram} alt="" />
         </ListItemIcon>
